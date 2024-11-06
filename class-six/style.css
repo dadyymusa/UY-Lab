@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+div{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+.header{
+    height: 150px;
+    width: 415px;
+    font-size: 50px;
+}
+.navigation-menu{
+    height: 50px;
+    width: 415px;
+    font-size: 35px;
+}
+.content-left{
+    height: 300px;
+    width: 100px;
+    float: left;
+    margin: 5px 5px 5px 5px;
+
+}
+.content-main{
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin:5px;
+}
+.content-right{
+    height: 300px;
+    width: 100px;
+    float: left;
+    margin:5px;
+
+}
+.footer{
+    height: 75px;
+    width: 415px;
+    clear: both;
+}
