@@ -1,45 +1,51 @@
 body{
     background-color: black;
 }
+
 div{
-    background-color: brown;
-    color: aliceblue;
-    text-align: center;
-    font-size: 30px;
-    margin: 10px;
-}
-.header{
-    height: 150px;
-    width: 415px;
+    color: antiquewhite;
     font-size: 50px;
+    text-align:center;
+    margin-bottom: 10px;
 }
+
+.header{
+    background-color: brown;
+    width: 1000px;
+    height: 150px;
+    line-height: 125px;
+}
+
 .navigation-menu{
-    height: 50px;
-    width: 415px;
-    font-size: 35px;
+    background-color: brown;
+    width: 1000px;
 }
+
 .content-left{
-    height: 300px;
-    width: 100px;
+    background-color: brown;
+    width : 300px;
+    height: 400px;
     float: left;
-    margin: 5px 5px 5px 5px;
-
+    margin-right: 10px;
 }
+
 .content-main{
-    height: 300px;
-    width: 200px;
+    background-color: brown;
+    width : 380px;
+    height: 400px;
     float: left;
-    margin:5px;
 }
-.content-right{
-    height: 300px;
-    width: 100px;
-    float: left;
-    margin:5px;
 
+.content-right{
+    background-color: brown;
+    width: 300px;
+    height : 400px;
+    float: left;
+    margin-left: 10px;
 }
+
 .footer{
-    height: 75px;
-    width: 415px;
+    background-color: brown;
+    width: 1000px;
     clear: both;
 }
