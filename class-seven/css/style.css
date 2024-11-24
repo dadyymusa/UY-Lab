@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color:coral;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: inline-flex;
+    
+}
+
+.menu ul li{
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    background-color: black;
+    display:block;
+}
+
+.sub-menu ul{
+    align-items: center;
+    display: list-item;
+}
+
+.sub-menu{
+    background-color: chocolate;
+    display: none;
+}
+
+.menu ul li:hover .sub-menu{
+    display: block;
+}
+
+.flagbox{
+    background-color: green;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 200px;
+    transition: transform 1s ease;
+}
+
+.circle img:hover{
+    transform: rotate(360deg);
+}
