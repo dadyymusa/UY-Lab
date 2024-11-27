@@ -1,0 +1,327 @@
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+p{  
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.middle{
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+.flags{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flag{
+    margin: 10px;
+}
+
+.flagbox{
+    width: 400px;
+    height: 250px;
+    display: flex;
+}
+
+/* Palestine start */
+.white-palestine{
+    background-color: white;
+    position: relative;
+}
+
+.black-palestine{
+    background-color: black;
+    width: 400px;
+    height: 85px;
+    position: absolute;
+    top: 0px;
+}
+
+.green-palestine{
+    background-color: green;
+    width: 400px;
+    height: 85px;
+    position: absolute;
+    top: 165px;
+}
+
+.red-palestine{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-top: 125px solid transparent;
+    border-left: 150px solid red;
+    border-bottom: 125px solid transparent;
+}
+/* Palestine end */
+
+/* Austria start */
+.red-austria{
+    background-color: rgb(255, 42, 42);
+    justify-content: center;
+    align-items: center;
+}
+
+.white-austria{
+    background-color: white;
+    width: 400px;
+    height: 85px;
+}
+/* Austria end */
+
+/* Costa Rica start */
+.blue-costarica{
+    background-color: rgba(0, 0, 255, 0.713);
+    justify-content: center;
+    align-items: center;
+}
+
+.white-costarica{
+    background-color: white;
+    width: 400px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-costarica{
+    background-color: red;
+    width: 400px;
+    height: 75px;
+}
+/* Costa Rica end */
+
+/*Japan start*/
+.white-japan{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-japan{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+/*Japan end*/
+
+/* Finland start*/
+.white-finland{
+    background-color: white;
+    position: relative;
+}
+
+.blue-vertical-finland{
+    background-color: rgb(22, 22, 139);
+    width: 70px;
+    height: 250px;
+    position: absolute;
+    left: 100px;
+}
+
+.blue-horizontal-finland{
+    background-color: rgb(22, 22, 139);
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    top: 80px;
+}
+/* Finland end */
+
+/* Jamaica start */
+.yellow-jamaica{
+    background-color: yellow;
+    position: relative;
+}
+
+.top-green-jamaica{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 110px solid green;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+}
+.bottom-green-jamaica{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 140px;
+    border-bottom: 110px solid green;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+}
+
+.left-black-jamaica{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 20%;
+    border-left: 150px solid black;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+}
+
+.right-black-jamaica{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 20%;
+    left: 250px;
+    border-right: 150px solid black;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+}
+/* Jamaica end */
+
+/* Iceland start */
+.blue-iceland{
+    background-color: rgb(0, 54, 190);
+    position: relative;
+}
+
+.white-vertical-iceland{
+    background-color: white;
+    width: 70px;
+    height: 250px;
+    position: absolute;
+    left: 100px;
+}
+
+.red-vertical-iceland{
+    background-color: red;
+    width: 35px;
+    height: 250px;
+    position: absolute;
+    left: 117.5px;
+
+}
+
+.white-horizontal-iceland{
+    background-color: white;
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    top: 80px;
+}
+
+.red-horizontal-iceland{
+    background-color: red;
+    width: 400px;
+    height: 35px;
+    position: absolute;
+    top: 97.5px;
+}
+/* Iceland end */
+
+/* Germany start */
+.flagbox{
+    position: relative;
+}
+.black-germany{
+    background-color: black;
+    width: 400px;
+    height: 33.33%;
+}
+.red-germany{
+    background-color: rgb(255, 8, 8);
+    width: 400px;
+    height: 33.33%;
+    position: absolute;
+    top: 33.33%;
+}
+.yellow-germany{
+    background-color: rgb(235, 216, 4);
+    width: 400px;
+    height: 33.33%;
+    position: absolute;
+    top: 66.66%;
+}
+/* Germany end */
+
+/* North Korea start */
+.blue-northKorea{
+    background-color: rgb(30, 30, 146);
+    justify-content: center;
+    align-items: center;
+}
+
+.white-northKorea{
+    background-color: white;
+    width: 400px;
+    height: 170px;
+    position: relative;
+}
+
+.red-northKorea{
+    background-color: red;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+}
+
+.circle-northKorea{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 27.5px;
+    left: 50px;
+}
+
+.star-northKorea{
+    width: 100px;
+    height: 100px;
+    background: red;
+    clip-path: polygon(
+      50% 0%,      /* Top point */
+      61% 35%,     /* Top-right inside */
+      98% 35%,     /* Top-right outside */
+      68% 57%,     /* Bottom-right */
+      79% 91%,     /* Bottom-right tip */
+      50% 70%,     /* Bottom center */
+      21% 91%,     /* Bottom-left tip */
+      32% 57%,     /* Bottom-left */
+      2% 35%,      /* Top-left outside */
+      39% 35%      /* Top-left inside */
+    );
+    position: absolute;
+    top: 35px;
+    left: 60px;
+  }
+
+/* North Korea end */
+
+/* Bahrain start */
+.white-bahrain{
+    background-color: white;
+    width: 120px;
+    height: 250px;
+}
+
+.red-bahrain{
+    background-color: red;
+    width: 280px;
+    height: 250px;
+}
+
+.triangle-bahrain{
+    border-left: 50px solid white;
+    border-top: 25.8px solid transparent;
+    border-bottom: 25.5px solid transparent;
+}
+
+/* Bahrain end */
