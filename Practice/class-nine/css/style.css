@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul, ol{
+    /* to remove dots  */
+    list-style: none;
+}
+
+h1, h4{
+    color: whitesmoke;
+}
+a{
+    /* to remove underline and blue colour */
+    text-decoration: none;
+}
+
+body{
+    
+}
+
+
+.common-head h1{
+    color: black;
+    text-align: center;
+    margin: 40px 0px;
+    padding: 10px 0px;
+    background-color: turquoise;
+    font-size: 30px;
+    border-radius: 30px;
+    height: 35px;
+}
+
+/* navigation css part start */
+nav{
+    background-color: green;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 30px 30px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 20px;
+}
+.clear-float{
+    clear: both;
+}
+/* navigation css part end */
+
+/* banner css start */
+.banner{
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-overlay{
+    padding: 150px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content h1{
+    font-size: 80px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.banner-content h4{
+    font-size: 50px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: orange;
+    margin-bottom: 40px;
+}
+
+.banner-content a{
+    padding: 10px 30px;
+    background-color: teal;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+/* banner css part end */
+
+/* about css start */
+.about-photo{
+    width: 50%;
+    float: left;
+}
+
+.about-photo img{
+    width: 100%;
+}
+
+.about-content{
+    float: left;
+    width: 50%;
+}
+
+.about-content h1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.about-content p{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+}
+/* about css end */
+
+/* gallery html start */
+.gallery-image{
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.gallery-image img{
+    width: 100%; 
+    height: 100%;
+}
+
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.gallery-overlay a{
+    height: 40px;
+    width: 40px;
+    background-color: teal;
+    border-radius: 30px;
+    display:block;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+.gallery-image:hover .gallery-overlay{
+    transform: scale(1);
+    transition-duration: 1s;
+    transform-origin: 1s;
+}
+/* gallery css end */
+
+/* footer css start */
+
+footer{
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.footer-content{
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+}
+/* footer css end */
+
+
+
+/* multiple page css start */
+.content h1{
+    color: black;
+     text-align: center;
+    font-size: 40px;
+    margin: 30px 0px;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.content p{
+    text-align: justify;
+}
+
+/* multiple page css end */

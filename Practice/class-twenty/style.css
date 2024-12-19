@@ -1,0 +1,38 @@
+
+.container{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.box1{  
+    background-color: gainsboro;  
+    border: 1px solid green;
+}
+
+.box1 p{
+    text-align: center;
+
+}
+
+.box2{
+    background-color: gainsboro;
+    border: 1px solid green;
+    display: none;
+}
+
+.box2 p{
+    text-align:center;
+}
+
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(157, 204, 2);
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
