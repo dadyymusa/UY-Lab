@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, nav, a, header, footer {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    /* font-family: "PT Sans", serif; */
+
+}
+
+/* navbar css start */
+.nav-item{
+    padding:0% 57px;
+}
+
+.pt-sans-regular {
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.pt-sans-bold {
+    font-family: "PT Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+.nav-link{
+    font-size: 22px
+}
+
+/* Carousel start */
+.slider {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.carousel-indicators [data-bs-target] {
+    margin-bottom: -5%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.fa-brands{
+    color: black;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+/* Carousel end */
+
+/* Features start */
+
+.feature-icon{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Features end */
+.subscribe-header{
+    color: #fcdb00;
+    font-size: 32px;
+}
+
+.subscribe-sub-header{
+    color: #898989;
+    font-size: 20px;
+}
+
+/* Footer starts */
+.footer-icon{
+    color: #fcdb00;
+    font-size: 42px;
+    margin: 50px 15px;
+}
+
+.widget{
+    color: #eaeaea;
+}
