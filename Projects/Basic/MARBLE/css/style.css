@@ -1,0 +1,234 @@
+/* FONTS start */
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-condensed-bold {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-slab-bold {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* FONTS end */
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+nav,
+a,
+header,
+footer {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+  background-color: #f1f1f7;
+
+}
+
+/* navbar start */
+.navbar {
+  background-color: #1abb9c;
+}
+
+.navbar-brand {
+  font-size: 40pt;
+  color: #4e4e4e;
+}
+
+.nav-item {
+  font-size: 16pt;
+  color: #4e4e4e;
+}
+
+.nav-item :hover {
+  color: #1abb9c;
+}
+
+/* navbar end */
+
+
+/* banner start */
+.banner {
+  background: url(../assets/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  padding: 200px 0px;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.banner-content h1 {
+  color: #f3f3f3;
+}
+
+.banner-content h2 {
+  color: #a8a8a8;
+}
+
+.banner-content a {
+  text-align: center;
+  background-color: #3f8dbf;
+  font-size: 14pt;
+  color: white;
+  width: auto;
+  margin: 15px auto;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+/* Banner end */
+
+/* Service start */
+.circle {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #4e4e4e;
+}
+
+.service-content {
+  text-align: center;
+}
+
+.service-content h1 {
+  font-size: 18pt;
+  color: #4e4e4e;
+}
+
+.service-content p {
+  font-size: 14pt;
+  color: #616161;
+}
+
+/* service end */
+
+/* work start */
+.work h1 {
+  font-size: 18pt;
+  margin-bottom: 5px;
+}
+
+.work h2 {
+  font-size: 13pt;
+  margin-bottom: 10px;
+}
+
+.work p {
+  font-size: 14pt;
+  margin-bottom: 10px;
+}
+
+/* work end */
+
+/* testimonial-section start */
+.testimonial {
+  background-color: #efefef;
+  padding: 100px 0;
+}
+
+.testimonial p {
+  margin: 20px;
+  font-size: 20pt;
+  color: #a1a1a1;
+}
+
+/* testimonial end  */
+
+
+/* footer start */
+.footer {
+  background-color: #1f1f1f;
+  padding: 10px 0;
+}
+
+.footer h1 {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #6c6c6c;
+  font-size: 18pt;
+}
+
+.footer p {
+  color: #cacaca;
+  font-size: 14pt;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.post {
+  color: #cacaca;
+}
+
+.post h2 {
+  font-size: 14pt;
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+/* footer end */
